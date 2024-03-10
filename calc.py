@@ -4,7 +4,6 @@ from kivy.core.window import Window
 
 Window.size = (480, 640)
 
-
 class CalculatorApp(MDApp):
     def build(self):
         self.theme_cls.primary_palette = "BlueGray"
